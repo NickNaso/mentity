@@ -1,1 +1,44 @@
-
+{
+  "name": "mentity",
+  "description": "Mongo DB Entity Library",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicoladelgobbo@gmail.com"
+    }
+  ],
+  "keywords": [
+    "mongodb",
+    "entity"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__tests__/jasmine.json"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/mentity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/mentity/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "mongodb": "^2.2.26"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "lib/"
+  ]
+}

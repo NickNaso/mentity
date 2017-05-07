@@ -1,3 +1,4 @@
+
 /*******************************************************************************
  * Copyright (c) 2017 Nicola Del Gobbo
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
@@ -18,4 +19,8 @@
 
 'use strict'
 
-module.exports = require('./lib')
+const Mentity = require('../')
+
+describe('Test Mentity Library', function () {
+
+})
