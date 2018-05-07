@@ -28,17 +28,10 @@
   },
   "homepage": "http://www.nacios.it/",
   "dependencies": {
-    "underscore": "^1.8.3"
+    "mongodb": "^3.0.7",
+    "underscore": "^1.9.0"
   },
   "devDependencies": {
-    "jasmine": "^2.6.0",
-    "mongodb": "^2.2.26"
-  },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "CHANGELOG.md",
-    "index.js",
-    "lib/"
-  ]
+    "jasmine": "^3.1.0"
+  }
 }
